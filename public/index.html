@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Payment Portal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Student Payment Portal</h1>
+        <form id="paymentForm">
+            <label for="name">Student Name</label>
+            <input type="text" id="name" name="name" required>
+            
+            <label for="matricNumber">Matric Number</label>
+            <input type="text" id="matricNumber" name="matricNumber" required>
+            
+            <label for="cardNumber">Card Number</label>
+            <input type="text" id="cardNumber" name="cardNumber" required>
+            
+            <label for="expiryDate">Expiry Date</label>
+            <input type="text" id="expiryDate" name="expiryDate" placeholder="MM/YY" required>
+            
+            <label for="cvv">CVV</label>
+            <input type="text" id="cvv" name="cvv" required>
+            
+            <button type="submit">Submit Payment</button>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
